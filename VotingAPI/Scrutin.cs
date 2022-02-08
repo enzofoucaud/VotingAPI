@@ -16,11 +16,6 @@ namespace VotingAPI
             candidates = _candidates;
         }
 
-        public List<Candidate> getCandidates()
-        {
-            return candidates;
-        }
-
         public int getNumberOfCandidates()
         {
             return candidates.Count;
@@ -46,11 +41,6 @@ namespace VotingAPI
                 }
             }
             return "Tout le monde peut participer";
-        }
-
-        public int getRound()
-        {
-            return round;
         }
 
         public void setRound()
@@ -92,7 +82,6 @@ namespace VotingAPI
             var cdt1 = candidates.ElementAt(0);
             var cdt2 = candidates.ElementAt(1);
             var cdt3 = candidates.ElementAt(2);
-
 
             if (cdt2.percent != cdt3.percent)
             {
@@ -156,7 +145,6 @@ namespace VotingAPI
             {
                 return "Error: Le vote n'est pas clos";
             }
-            return "Contact admin";
         }
     }
 }
