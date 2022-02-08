@@ -21,7 +21,6 @@ namespace VotingAPISpec.Features
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Calculator", Description=@"![Calculator](https://specflow.org/wp-content/uploads/2020/09/calculator.png)
 Simple calculator for adding **two** numbers
-
 Link to a feature: [Calculator](VotingAPISpec/Features/Calculator.feature)
 ***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**", SourceFile="Features\\Voting.feature", SourceLine=0)]
     public partial class CalculatorFeature
@@ -40,7 +39,6 @@ Link to a feature: [Calculator](VotingAPISpec/Features/Calculator.feature)
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Calculator", @"![Calculator](https://specflow.org/wp-content/uploads/2020/09/calculator.png)
 Simple calculator for adding **two** numbers
-
 Link to a feature: [Calculator](VotingAPISpec/Features/Calculator.feature)
 ***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
@@ -78,15 +76,13 @@ Link to a feature: [Calculator](VotingAPISpec/Features/Calculator.feature)
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Count candidates", new string[] {
-                "mytag"}, SourceLine=8)]
+        [TechTalk.SpecRun.ScenarioAttribute("Count candidates", SourceLine=6)]
         public virtual void CountCandidates()
         {
-            string[] tagsOfScenario = new string[] {
-                    "mytag"};
+            string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Count candidates", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 9
+#line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -115,23 +111,23 @@ this.ScenarioInitialize(scenarioInfo);
                 table1.AddRow(new string[] {
                             "Yanis",
                             "18"});
-#line 10
+#line 8
  testRunner.Given("new candidates", ((string)(null)), table1, "Given ");
 #line hidden
-#line 14
+#line 12
  testRunner.Then("candidates should be 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Verify ages with correct ages", SourceLine=15)]
+        [TechTalk.SpecRun.ScenarioAttribute("Verify ages with correct ages", SourceLine=13)]
         public virtual void VerifyAgesWithCorrectAges()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify ages with correct ages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 16
+#line 14
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -160,23 +156,23 @@ this.ScenarioInitialize(scenarioInfo);
                 table2.AddRow(new string[] {
                             "Yanis",
                             "23"});
-#line 17
+#line 15
  testRunner.Given("new candidates", ((string)(null)), table2, "Given ");
 #line hidden
-#line 21
+#line 19
  testRunner.Then("ages should be Tout le monde peut participer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Verify ages with incorrect ages", SourceLine=22)]
+        [TechTalk.SpecRun.ScenarioAttribute("Verify ages with incorrect ages", SourceLine=20)]
         public virtual void VerifyAgesWithIncorrectAges()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify ages with incorrect ages", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 23
+#line 21
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -205,23 +201,23 @@ this.ScenarioInitialize(scenarioInfo);
                 table3.AddRow(new string[] {
                             "Yanis",
                             "17"});
-#line 24
+#line 22
  testRunner.Given("new candidates", ((string)(null)), table3, "Given ");
 #line hidden
-#line 28
+#line 26
  testRunner.Then("ages should be Error: Yanis ne peut pas participer car il a 17", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and get winner on first round", SourceLine=29)]
+        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and get winner on first round", SourceLine=27)]
         public virtual void VotingClosedAndGetWinnerOnFirstRound()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting closed and get winner on first round", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 30
+#line 28
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -250,35 +246,35 @@ this.ScenarioInitialize(scenarioInfo);
                 table4.AddRow(new string[] {
                             "Yanis",
                             "18"});
-#line 31
+#line 29
  testRunner.Given("new candidates", ((string)(null)), table4, "Given ");
 #line hidden
-#line 35
+#line 33
  testRunner.And("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 36
+#line 34
  testRunner.And("give \"8\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 35
  testRunner.And("give \"2\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 38
+#line 36
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 39
+#line 37
  testRunner.And("the winner is \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Voting not closed and get winner on first round", SourceLine=40)]
+        [TechTalk.SpecRun.ScenarioAttribute("Voting not closed and get winner on first round", SourceLine=38)]
         public virtual void VotingNotClosedAndGetWinnerOnFirstRound()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting not closed and get winner on first round", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 41
+#line 39
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -307,32 +303,32 @@ this.ScenarioInitialize(scenarioInfo);
                 table5.AddRow(new string[] {
                             "Yanis",
                             "18"});
-#line 42
+#line 40
  testRunner.Given("new candidates", ((string)(null)), table5, "Given ");
 #line hidden
-#line 46
+#line 44
  testRunner.And("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 47
+#line 45
  testRunner.And("give \"8\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 48
+#line 46
  testRunner.And("give \"2\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 49
+#line 47
  testRunner.When("the winner is \"Error: Le vote n\'est pas clos\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and get winner on second round", SourceLine=50)]
+        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and get winner on second round", SourceLine=48)]
         public virtual void VotingClosedAndGetWinnerOnSecondRound()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting closed and get winner on second round", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 51
+#line 49
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -364,53 +360,53 @@ this.ScenarioInitialize(scenarioInfo);
                 table6.AddRow(new string[] {
                             "John",
                             "18"});
-#line 52
+#line 50
  testRunner.Given("new candidates", ((string)(null)), table6, "Given ");
 #line hidden
-#line 57
+#line 55
  testRunner.And("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 58
+#line 56
  testRunner.And("give \"4\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 59
+#line 57
  testRunner.And("give \"4\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 60
+#line 58
  testRunner.And("give \"2\" vote to \"John\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 61
+#line 59
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 62
+#line 60
  testRunner.And("the winner is \"Aucuns vainqueurs sur le premier tour, tour suivant\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 63
+#line 61
  testRunner.Given("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 64
+#line 62
  testRunner.And("give \"8\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 65
+#line 63
  testRunner.And("give \"2\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 66
+#line 64
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 67
+#line 65
  testRunner.And("the winner is \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and no winner on second round (equality)", SourceLine=68)]
-        public virtual void VotingClosedAndNoWinnerOnSecondRoundEquality()
+        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and no winner on second round (vote equality)", SourceLine=66)]
+        public virtual void VotingClosedAndNoWinnerOnSecondRoundVoteEquality()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting closed and no winner on second round (equality)", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 69
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting closed and no winner on second round (vote equality)", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 67
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -442,53 +438,53 @@ this.ScenarioInitialize(scenarioInfo);
                 table7.AddRow(new string[] {
                             "John",
                             "18"});
-#line 70
+#line 68
  testRunner.Given("new candidates", ((string)(null)), table7, "Given ");
 #line hidden
-#line 75
+#line 73
  testRunner.And("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 76
+#line 74
  testRunner.And("give \"4\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 77
+#line 75
  testRunner.And("give \"4\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 78
+#line 76
  testRunner.And("give \"2\" vote to \"John\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 79
+#line 77
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 80
+#line 78
  testRunner.And("the winner is \"Aucuns vainqueurs sur le premier tour, tour suivant\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 81
+#line 79
  testRunner.Given("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 82
+#line 80
  testRunner.And("give \"8\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 83
+#line 81
  testRunner.And("give \"8\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 84
+#line 82
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 85
+#line 83
  testRunner.And("the winner is \"Les candidats sont à égalités. Stop!\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and no winner on second round (percent equality)", SourceLine=86)]
+        [TechTalk.SpecRun.ScenarioAttribute("Voting closed and no winner on second round (percent equality)", SourceLine=84)]
         public virtual void VotingClosedAndNoWinnerOnSecondRoundPercentEquality()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Voting closed and no winner on second round (percent equality)", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 87
+#line 85
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -520,40 +516,40 @@ this.ScenarioInitialize(scenarioInfo);
                 table8.AddRow(new string[] {
                             "John",
                             "20"});
-#line 88
+#line 86
  testRunner.Given("new candidates", ((string)(null)), table8, "Given ");
 #line hidden
-#line 93
+#line 91
  testRunner.And("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 94
+#line 92
  testRunner.And("give \"3\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 95
+#line 93
  testRunner.And("give \"2\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 96
+#line 94
  testRunner.And("give \"2\" vote to \"John\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 97
+#line 95
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 98
+#line 96
  testRunner.And("the winner is \"Aucuns vainqueurs sur le premier tour, tour suivant\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 99
+#line 97
  testRunner.Given("new round", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 100
+#line 98
  testRunner.And("give \"2\" vote to \"Enzo\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 101
+#line 99
  testRunner.And("give \"8\" vote to \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 102
+#line 100
  testRunner.When("close voting", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 103
+#line 101
  testRunner.And("the winner is \"Yanis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
