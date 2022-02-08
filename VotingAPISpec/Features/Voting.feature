@@ -66,7 +66,7 @@ Scenario: Voting closed and get winner on second round
 	When close voting
 	And the winner is "Enzo"
 
-Scenario: Voting closed and no winner on second round (equality)
+Scenario: Voting closed and no winner on second round (vote equality)
 	Given new candidates
 	| Names | Ages |
 	| Enzo  | 18   |
