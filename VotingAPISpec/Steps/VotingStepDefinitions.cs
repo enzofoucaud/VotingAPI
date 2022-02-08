@@ -72,12 +72,6 @@ namespace VotingAPISpec.Steps
         public void WhenTheWinnerIs(string result)
         {
             _resultString = _scrutin.getWinnerRound();
-            //var cand = _scrutin.getCandidates();
-            //foreach (var c in cand)
-            //{
-            //    Console.WriteLine("Le candidat {0} a un {1}% de votes avec {2}", c.candidate, c.percent, c.vote);
-            //}
-            //Console.WriteLine("Il y a {0} votes", _scrutin.getTotalVotes());
             this._resultString.Should().Be(result);
         }
     }
