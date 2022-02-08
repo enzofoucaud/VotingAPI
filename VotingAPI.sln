@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingAPI", "VotingAPI\VotingAPI.csproj", "{7E388CB4-2624-4BB8-9F35-10AC3E044FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingAPISpec", "VotingAPISpec\VotingAPISpec.csproj", "{51FEFB7F-A6C8-4087-9A8F-1A1294BA1528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E388CB4-2624-4BB8-9F35-10AC3E044FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E388CB4-2624-4BB8-9F35-10AC3E044FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E388CB4-2624-4BB8-9F35-10AC3E044FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E388CB4-2624-4BB8-9F35-10AC3E044FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FEFB7F-A6C8-4087-9A8F-1A1294BA1528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FEFB7F-A6C8-4087-9A8F-1A1294BA1528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FEFB7F-A6C8-4087-9A8F-1A1294BA1528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FEFB7F-A6C8-4087-9A8F-1A1294BA1528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C5895F-5187-4B23-B370-58D1F17DB007}
+	EndGlobalSection
+EndGlobal
