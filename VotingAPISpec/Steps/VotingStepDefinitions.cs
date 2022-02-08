@@ -18,7 +18,6 @@ namespace VotingAPISpec.Steps
 
         private string _resultString;
         private int _resultInt;
-        private bool _resultBool;
 
         public VotingStepDefinitions(ScenarioContext scenarioContext)
         {
